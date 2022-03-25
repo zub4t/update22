@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./background.png');
+}
+
+canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+/*
+body {
+    background: linear-gradient(10deg, #060440, #070035);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 68% 0%
+    }
+    50% {
+        background-position: 33% 100%
+    }
+    100% {
+        background-position: 68% 0%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 68% 0%
+    }
+    50% {
+        background-position: 33% 100%
+    }
+    100% {
+        background-position: 68% 0%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 68% 0%
+    }
+    50% {
+        background-position: 33% 100%
+    }
+    100% {
+        background-position: 68% 0%
+    }
+}
+*/
