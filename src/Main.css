@@ -14,9 +14,8 @@ canvas {
     top: 0;
 }
 
-
-/*
 body {
+    overflow-x: hidden;
     background: linear-gradient(10deg, #060440, #070035);
     background-size: 400% 400%;
     -webkit-animation: AnimationName 30s ease infinite;
@@ -59,4 +58,96 @@ body {
         background-position: 68% 0%
     }
 }
-*/
+
+.css-selector {
+    background: linear-gradient(344deg, #161e27, #157577, #157274);
+    background-size: 600% 600%;
+    -webkit-animation: UPanim 9s ease infinite;
+    -moz-animation: UPanim 9s ease infinite;
+    animation: UPanim 9s ease infinite;
+}
+
+@-webkit-keyframes UPanim {
+    0% {
+        background-position: 84% 0%
+    }
+    50% {
+        background-position: 17% 100%
+    }
+    100% {
+        background-position: 84% 0%
+    }
+}
+
+@-moz-keyframes UPanim {
+    0% {
+        background-position: 84% 0%
+    }
+    50% {
+        background-position: 17% 100%
+    }
+    100% {
+        background-position: 84% 0%
+    }
+}
+
+@keyframes UPanim {
+    0% {
+        background-position: 84% 0%
+    }
+    50% {
+        background-position: 17% 100%
+    }
+    100% {
+        background-position: 84% 0%
+    }
+}
+
+.css-selector {
+    background: linear-gradient(344deg, #161e27, #157577, #157274);
+    background-size: 600% 600%;
+    -webkit-animation: UPanim 9s ease infinite;
+    -moz-animation: UPanim 9s ease infinite;
+    animation: UPanim 9s ease infinite;
+}
+
+@-webkit-keyframes UPanim {
+    0% {
+        background-position: 84% 0%
+    }
+    50% {
+        background-position: 17% 100%
+    }
+    100% {
+        background-position: 84% 0%
+    }
+}
+
+@-moz-keyframes UPanim {
+    0% {
+        background-position: 84% 0%
+    }
+    50% {
+        background-position: 17% 100%
+    }
+    100% {
+        background-position: 84% 0%
+    }
+}
+
+@keyframes UPanim {
+    0% {
+        background-position: 84% 0%
+    }
+    50% {
+        background-position: 17% 100%
+    }
+    100% {
+        background-position: 84% 0%
+    }
+}
+
+#NUCClogo {
+    position: absolute;
+    left: -250;
+}

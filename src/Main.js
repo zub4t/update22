@@ -1,5 +1,6 @@
 import './Main.css'
 import particlesIMG from './particlesIMG'
+import NUCC from './NUCC'
 import {Patrocinios} from "./components/Patrocinios";
 import Footer from "./components/Footer";
 
@@ -8,6 +9,7 @@ function InitialScreen() {
         width: '100%',
         margin: 0,
         height: "100vh"
+        
     };
     const divStylePatrocinadores = {
         background: 'white',
@@ -15,7 +17,9 @@ function InitialScreen() {
   return (
       <>
         <div style={divStyleBanner}>
-            <canvas id="CANVAS">
+            <canvas id="UPdateBanner">
+            </canvas>
+             <canvas id="NUCClogo">
             </canvas>
         </div>
           <div style={divStylePatrocinadores}>

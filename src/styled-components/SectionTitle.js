@@ -1,5 +1,4 @@
-import styled from "styled-components";
-
+import styled from 'styled-components'
 
 export default styled.p`
    font-family: 'Source Code Pro', sans-serif;
@@ -7,21 +6,37 @@ export default styled.p`
     text-align: center;
     font-weight: 400;
     position: relative;
-    font-size: ${ props => props.font + "px"};
-    color: ${ props => props.insane ? "#4cd3b3" : "#d5d5d5"};
-    background-color: #591857;
+    font-size: ${(props) => props.font + 'px'};
+    color: ${(props) => (props.insane ? '#4cd3b3' : '#d5d5d5')};
     margin-bottom: 0;
     text-transform: uppercase;
-    text-shadow: ${props => props.textShadowSize} ${ props => props.insane ? "#d5d5d5" : "#4cd3b3"};
-    box-shadow: 0px 0px 20px #000000ba;
-    background: rgb(106, 23, 104);
-    background: linear-gradient(90deg, #161e27 0%, #157678 100%);
-    width: ${ props => props.width}
+    text-shadow: ${(props) => props.textShadowSize} ${(props) =>
+  props.insane ? '#d5d5d5' : '#4cd3b3'};
+    background: linear-gradient(344deg, #161e27, #157577, #157274);
+    background-size: 600% 600%;
+    -webkit-animation: UPanim 9s ease infinite;
+    -moz-animation: UPanim 9s ease infinite;
+    animation: UPanim 9s ease infinite;
+    width: ${(props) => props.width}
 }
-
+  @-webkit-keyframes UPanim {
+    0%{background-position:84% 0%}
+    50%{background-position:17% 100%}
+    100%{background-position:84% 0%}
+  }
+  @-moz-keyframes UPanim {
+    0%{background-position:84% 0%}
+    50%{background-position:17% 100%}
+    100%{background-position:84% 0%}
+  }
+  @keyframes UPanim {
+    0%{background-position:84% 0%}
+    50%{background-position:17% 100%}
+    100%{background-position:84% 0%}
+  }
  @media (max-width: 630px) {
-    font-size: ${props => (props.font/1.5) + "px" };
+    font-size: ${(props) => props.font / 1.5 + 'px'};
     text-shadow: 0px 1px #4cd3b3;
   }
 
-`;
+`
