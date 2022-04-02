@@ -27,13 +27,15 @@ export const Horario = () =>{
                         <p>Abertura</p>
                     </div>
                     <div className="eventos-item normal-takes-2">
-                        <p>Autonomous Driving: Technology & Challenges</p>
+                        <p>Autonomous Driving: <br/> Technology & Challenges</p>
+                        <img src={require("../img/atividades-icones/auto_driving-01.png")}/>
                     </div>
                     <div className="eventos-item hour">
                         <p>10:30-11:00</p>
                     </div>
                     <div className="eventos-item normal-takes-3">
-                        <p>Como me tornar num programador de Jogos Bem-Sucedido</p>
+                        <p>Como me tornar num programador <br/> de Jogos Bem-Sucedido</p>
+                        <img width={"60%"} src={require("../img/atividades-icones/gamedev-01.png")}/>
                     </div>
                     <div className="eventos-item hour">
                         <p>11:00-11:15</p>
@@ -72,31 +74,37 @@ export const Horario = () =>{
                         <p>14:30-15:30</p>
                     </div>
                     <div className="eventos-item normal">
-                        <p> Pitching & Networking Session </p>
+                        <p> Pitching <br/>& Networking Session </p>
+                        <img src={require("../img/atividades-icones/Pitching_Critical-01.png")}/>
                     </div>
                     <div className="eventos-item normal">
-                        <p> Pitching & Networking Session </p>
+                        <p> Pitching <br/>& Networking Session </p>
+                        <img src={require("../img/atividades-icones/Pitching_Mindera-01.png")}/>
                     </div>
                     <div className="eventos-item hour">
                         <p>15:30-16:30</p>
                     </div>
                     <div className="eventos-item half">
-                        <p>Networking & Coffee Break</p>
+                        <p>Networking <br/> & Coffee Break</p>
+                        <img src={require("../img/atividades-icones/Networking&CoffeeBreak-01.png")}/>
                     </div>
                     <div className="eventos-item metyis">
-                        <p>Metyis Code Battle</p>
+                        <p>Code Battle</p>
                     </div>
                     <div className="eventos-item normal">
-                        <p>Networking & Coffee Break</p>
+                        <p>Networking <br/> & Coffee Break</p>
+                        <img src={require("../img/atividades-icones/Networking&CoffeeBreak-01.png")}/>
                     </div>
                     <div className="eventos-item hour">
                         <p>16:30-18:30</p>
                     </div>
                     <div className="eventos-item half">
-                        <p>Workshop From Code to Kubernetes</p>
+                        <p>From Code to Kubernetes</p>
+                        <img src={require("../img/atividades-icones/Kubernetes-01.png")}/>
                     </div>
                     <div className="eventos-item normal">
-                        <p> Workshop Automotive Supply Chain: Arquitecture 101 </p>
+                        <p>Automotive <br/> Supply Chain: <br/> Arquitecture 101 </p>
+                        <img src={require("../img/atividades-icones/AutomativeSupplyChain-01.png")}/>
                     </div>
                     <div className="eventos-item hour">
                         <p>18:30-19:00</p>
@@ -112,6 +120,7 @@ export const Horario = () =>{
                     </div>
                     <div className="eventos-item normal-takes-3">
                         <p>Churrasco </p>
+                        <img src={require("../img/atividades-icones/Churrasco-01.png")}/>
                     </div>
                     <div className="eventos-item hour">
                         <p>19:30-20:00</p>
