@@ -6,8 +6,10 @@
 }
 
 body {
-    background-image: url('./background.png');
+    /*background-image: url('./background.png');*/
+    background: linear-gradient(90deg, #111f0f 0%, #2b4958 100%);
     overflow-x: hidden;
+    box-shadow: 10px 10px 5px #ccc;
 }
 
 canvas {
