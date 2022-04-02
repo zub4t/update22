@@ -3,6 +3,7 @@ import particlesIMG from './particlesIMG'
 import NUCC from './NUCC'
 import {Patrocinios} from "./components/Patrocinios";
 import Footer from "./components/Footer";
+import {Horario} from "./components/Horario";
 
 function InitialScreen() {
     const divStyleBanner = {
@@ -19,9 +20,10 @@ function InitialScreen() {
         <div style={divStyleBanner}>
             <canvas id="UPdateBanner">
             </canvas>
-             <canvas id="NUCClogo">
-            </canvas>
+            {/* <canvas id="NUCClogo">*/}
+            {/*</canvas>*/}
         </div>
+          <Horario/>
           <div style={divStylePatrocinadores}>
               <Patrocinios/>
           </div>

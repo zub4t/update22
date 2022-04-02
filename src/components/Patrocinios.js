@@ -34,9 +34,15 @@ export const Patrocinios = () =>{
                 </SectionTitle>
             </div>
 
-            <div className={"mt-md-5 mt-3 justify-content-center row"}>
-                <div className="col-12 d-flex  justify-content-center ">
-                    <img width={"60%"} height={"75%"} src={require("./sponsors/Gold/mindera.png")} alt={""}/>
+            <div className={"mt-md-5 justify-content-center row"}>
+                <div className="col-5 d-flex  justify-content-center ">
+                    <img  src={require("./sponsors/Gold/critical.png")} alt={""}/>
+                </div>
+                <div className="col-5 d-flex  justify-content-center ">
+                    <img width={"50%"} src={require("./sponsors/Gold/mindera.png")} alt={""}/>
+                </div>
+                <div className="col-5 d-flex  justify-content-center ">
+                    <img width={"60%"} src={require("./sponsors/Gold/synopsys.png")} alt={""}/>
                 </div>
             </div>
 
@@ -47,18 +53,9 @@ export const Patrocinios = () =>{
                     Silver
                 </SectionTitle>
             </div>
-            <div className={"mt-3 justify-content-center row p-md-5"}>
-                <div className="col-5 d-flex  justify-content-center ">
-                    <img width={"55%"} height={"55%"} src="/public/sponsors/Silver/altice.svg" alt={""}/>
-                </div>
-                <div className="col-5 d-flex  justify-content-center ">
-                    <img width={"55%"} height={"55%"} src="/public/sponsors/Silver/s21sec.svg" alt={""}/>
-                </div>
-                <div className="col-5 d-flex  justify-content-center">
-                    <img width={"55%"} height={"55%"} src="/public/sponsors/Silver/natixis.png" alt={""}/>
-                </div>
-                <div className="col-5 d-flex  justify-content-center">
-                    <img width={"60%"} height={"60%"} src="/public/sponsors/Silver/mindSource.svg" alt={""}/>
+            <div className={"justify-content-center row p-md-5"}>
+                <div className="col-12 d-flex  justify-content-center ">
+                    <img width={"35%"} src={require("./sponsors/Silver/sonae.jpg")} alt={""}/>
                 </div>
             </div>
 
@@ -73,9 +70,9 @@ export const Patrocinios = () =>{
                     <img width={"55%"} height={"55%"} src={farfetch} alt={""}/>
                 </div>
                 <div className="col-2 col-sm-2 d-flex  justify-content-center">
-                    <img width={"70%"} height={"70%"} src={ltpLabs} alt={""}/>
+                    <img width={"70%"} src={ltpLabs} alt={""}/>
                 </div><div className="col-3 col-sm-3 d-flex  justify-content-center">
-                <img width={"55%"} height={"55%"} src={natixis} alt={""}/>
+                <img width={"55%"} src={natixis} alt={""}/>
             </div>
             </div>
 
