@@ -36,10 +36,10 @@ export const Patrocinios = () =>{
 
             <div className={"mt-md-5 justify-content-center row"}>
                 <div className="col-5 d-flex  justify-content-center ">
-                    <img  src={require("./sponsors/Gold/critical.png")} alt={""}/>
+                    <img width={"100%"} src={require("./sponsors/Gold/critical.png")} alt={""}/>
                 </div>
                 <div className="col-5 d-flex  justify-content-center ">
-                    <img width={"50%"} src={require("./sponsors/Gold/mindera.png")} alt={""}/>
+                    <img width={"60%"} src={require("./sponsors/Gold/mindera.png")} alt={""}/>
                 </div>
                 <div className="col-5 d-flex  justify-content-center ">
                     <img width={"60%"} src={require("./sponsors/Gold/synopsys.png")} alt={""}/>

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f3bf4205.css",
+    "main.js": "/static/js/main.b8f7aef8.js",
+    "static/media/natixis.png": "/static/media/natixis.04ffbb39e8df829558b1.png",
+    "static/media/mindera.png": "/static/media/mindera.e3fc782e95f1319629cd.png",
+    "static/media/sonae.jpg": "/static/media/sonae.b1c3d0f04e1c76974966.jpg",
+    "static/media/horario_title.png": "/static/media/horario_title.59b682d0e7ad2e51a210.png",
+    "static/media/dcc.svg": "/static/media/dcc.e1a3e3e15ca0b8e9ffe32a1c8bda6096.svg",
+    "static/media/ipdj.svg": "/static/media/ipdj.dd80eb26dd9c79389f841962999483c1.svg",
+    "static/media/gamedev-01.png": "/static/media/gamedev-01.8aee0bcea458e723ba4b.png",
+    "static/media/fcup.png": "/static/media/fcup.94ddae02633f9609f0fe.png",
+    "static/media/synopsys.png": "/static/media/synopsys.4da63f552810ed45df6e.png",
+    "static/media/metyis.png": "/static/media/metyis.b358f84858ce8e1ffb02.png",
+    "static/media/ltp_labs.svg": "/static/media/ltp_labs.ff5730d72e0b6096499981b2472079f1.svg",
+    "index.html": "/index.html",
+    "main.f3bf4205.css.map": "/static/css/main.f3bf4205.css.map",
+    "main.b8f7aef8.js.map": "/static/js/main.b8f7aef8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3bf4205.css",
+    "static/js/main.b8f7aef8.js"
+  ]
+}
