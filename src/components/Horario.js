@@ -75,32 +75,32 @@ export const Horario = () =>{
                     </div>
                     <div className="eventos-item normal">
                         <p> Pitching <br/>& Networking Session </p>
-                        <img src={require("../img/atividades-icones/Pitching_Critical-01.png")}/>
+                        <img width={"40%"} src={require("../img/atividades-icones/Pitching_Critical-01.png")}/>
                     </div>
                     <div className="eventos-item normal">
                         <p> Pitching <br/>& Networking Session </p>
-                        <img src={require("../img/atividades-icones/Pitching_Mindera-01.png")}/>
+                        <img width={"40%"} src={require("../img/atividades-icones/Pitching_Mindera-01.png")}/>
                     </div>
                     <div className="eventos-item hour">
                         <p>15:30-16:30</p>
                     </div>
                     <div className="eventos-item half">
-                        <p>Networking <br/> & Coffee Break</p>
-                        <img src={require("../img/atividades-icones/Networking&CoffeeBreak-01.png")}/>
+                        <p>Networking & Coffee Break</p>
+                        <img width={"99%"} src={require("../img/atividades-icones/Networking&CoffeeBreak-01.png")}/>
                     </div>
                     <div className="eventos-item metyis">
                         <p>Code Battle</p>
                     </div>
                     <div className="eventos-item normal">
                         <p>Networking <br/> & Coffee Break</p>
-                        <img src={require("../img/atividades-icones/Networking&CoffeeBreak-01.png")}/>
+                        <img width={"35%"} src={require("../img/atividades-icones/Networking&CoffeeBreak-01.png")}/>
                     </div>
                     <div className="eventos-item hour">
                         <p>16:30-18:30</p>
                     </div>
                     <div className="eventos-item half">
                         <p>From Code to Kubernetes</p>
-                        <img src={require("../img/atividades-icones/Kubernetes-01.png")}/>
+                        <img width={"40%"} src={require("../img/atividades-icones/Kubernetes-01.png")}/>
                     </div>
                     <div className="eventos-item normal">
                         <p>Automotive <br/> Supply Chain: <br/> Arquitecture 101 </p>
